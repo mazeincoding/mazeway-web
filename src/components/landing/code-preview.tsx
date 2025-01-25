@@ -29,10 +29,10 @@ export function CodePreview() {
   return (
     <Card>
       <CardHeader className="flex-row items-center justify-between p-4 px-6 pb-0">
-        <div className="flex items-center gap-1.5">
-          <div className="h-2.5 w-2.5 rounded-full bg-red-500" />
-          <div className="h-2.5 w-2.5 rounded-full bg-yellow-500" />
-          <div className="h-2.5 w-2.5 rounded-full bg-green-500" />
+        <div className="flex items-center gap-2">
+          <div className="h-3 w-3 rounded-full bg-red-500" />
+          <div className="h-3 w-3 rounded-full bg-yellow-500" />
+          <div className="h-3 w-3 rounded-full bg-green-500" />
         </div>
         <span className="ml-2 text-sm text-muted-foreground">Project</span>
       </CardHeader>
